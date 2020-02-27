@@ -1,0 +1,33 @@
+.container{
+    position: relative;
+    text-transform: uppercase;
+}
+
+.navContainer{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navItem{
+    color: var(--accent-color);
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 700;
+
+}
+
+.currentItem{
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 20px;
+}
+
+.downMenu{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
